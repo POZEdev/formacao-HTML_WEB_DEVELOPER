@@ -1,0 +1,282 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+.interests{ 
+    list-style: none; 
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size:large; 
+}
+
+.navigation{ 
+    list-style: none; 
+    padding-left: 5px;
+    padding-right: 2px;
+    font-size:large; 
+}
+
+.button-js {
+    color:rgb(93, 23, 0);
+    background-color: rgb(242, 242, 242);
+    border: 2px groove;
+    padding: 3px;
+    border-radius: 10px 0px 10px;
+    margin-top: -100px;
+    font-weight: 1000;
+    border-color: #000000;
+
+}  
+
+
+
+.button-js:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(93, 23, 0);
+    font-size: large;
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+
+a { 
+    color:rgb(195, 0, 255);
+    text-decoration: none;
+    background-color: rgb(252, 252, 255);
+    border: 2px groove;
+    padding: 5px;
+    border-radius: 10px 0px 10px;
+    display:grid;    
+    text-align: center;
+}
+
+a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(195, 0, 255);
+    font-size: x-large;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.linkedin {
+color: #0048ff;
+margin-top: -15px;
+margin-bottom: 5px;
+}
+    .linkedin:hover{
+    color: #ffffff;
+        background-color: #0048ff;
+        font-size: x-large;
+        border-radius: 0px 10px 0px 10px;
+    }
+    
+.github {
+color: #000000;
+margin-bottom: 5px;
+
+}
+    .github:hover{
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        font-size: x-large;
+        border-radius: 0px 10px 0px 10px;
+}
+
+.whatsapp {
+    color: #00ff26;
+    margin-bottom: 5px;
+
+}
+    .whatsapp:hover{
+        color: #ffffff;
+        background-color: #00ff26;
+        font-size: x-large;
+        border-radius: 0px 10px 0px 10px;
+    }
+
+    
+.bar {
+    background-color: #f9f9fb;
+    padding:5px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.main h1 {
+    text-align: center;
+    margin-bottom: -23px;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-decoration: none;
+    list-style: none; 
+    color: #FFFFFF;
+    background: #333333;
+    
+  
+    
+
+
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    text-align: center;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    text-align: center;
+}
+
+#imagem-meditation {
+    background-image: url("../images/spritual.jpg");
+    background-position: 50% 75%;
+    background-size: cover;
+    width: 1349px;
+    height: 200px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+#imagem-orchestra{
+    background-image: url("../images/orquestra.jpg");
+    background-position: 50% 40%;
+    background-size: 1350px 600px;
+    width: 1349px;
+    height: 200px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container > iframe {
+    background: black;
+    border: none;
+    width: 560px;
+    height: 315px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.buda {
+    width: 180px;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: -30px;
+    margin-right: 15px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.compositores {
+    width: 200px;
+    height: 250px;
+    margin-top: 15px;
+    margin-left: -30px;
+    margin-right: 15px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.meditacao {
+    width: 170px;
+    height: 180px;
+    margin-top: -50px;
+    margin-left: 15px;
+    margin-right: -40px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.banco {
+    width: 220px;
+    height: 180px;
+    margin-top: 5px;
+    margin-right: -40px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.maestro {
+    width: 300px;
+    height: 200px;
+    margin-right: -40px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.instrumentos {
+    width: 300px;
+    height: 200px;
+    margin-right: -40px;
+    border: 3px solid rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+.historia {
+    margin-top: 40px;
+}
+
+.etimologia {
+    margin-top: 40px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 200px;
+    right: 1300px;
+    width: 20px;
+    height: 30px;
+    background-color: #000;
+    text-decoration: none;
+}
+
+.btn::after {
+    content: "↑";
+    font-size: 35px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 500ms;
+}
+
+.btn:hover::after {
+    margin-top:-15px;
+}
+
+.text-footer {
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -5px 10px #ff8000, 0 -5px 20px #F00;
+    text-align: center;
+    height: 40px;
+    margin-bottom: -10px;
+}
